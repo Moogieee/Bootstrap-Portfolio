@@ -1,0 +1,71 @@
+body {
+	background-color: black;
+}
+.navbar, .navbar-default .navbar-nav > li {
+	background-color: black;
+	border: 0;
+	color: white;
+    margin-top: 9px;
+}
+.navbar-name {
+	margin-top: 10px;
+	font-size: 30px;
+	font-family: Times New Roman;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    background-color: #2A7F7B;
+    color: black;
+}
+.header-font {
+	color: #2A7F7B;
+	font-family: Times New Roman;
+	padding-bottom: 10px;
+	border-bottom: 1px solid white;
+}
+article {
+    color: white;
+    line-height: 150%;
+    margin-right: 50px;
+    margin-bottom: 100px;
+    padding: 20px 30px 30px 30px;
+    background-color: rgba(42,127,123,.2);
+    clear: both;
+}
+
+aside { 
+	color: white;
+    text-align: center;
+    padding: 20px;
+    position: absolute;
+    background-color: rgba(42,127,123,.2)
+}
+.github-icon {
+    width: 50px;
+    margin-right: 10px;
+    height: auto;
+}
+.linkedin-icon {
+    width: 50px;
+    margin-right: 10px;
+    height: auto;
+}
+.stackoverflow-icon {
+    width: 50px;
+    height: auto;
+}
+
+.footer {
+    width: 100%;
+    padding: 1em;
+    color: white;
+    background-color: #242424;
+    font-family: Times New Roman;
+    text-align: center;
+    clear: both;
+}
+@media (max-width: 768px) {
+  .navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+  }
