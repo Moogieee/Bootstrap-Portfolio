@@ -1,43 +1,38 @@
 body {
-	background-color: black;
-}
-.navbar, .navbar-default .navbar-nav > li {
-	background-color: black;
-	border: 0;
-	color: white;
-    margin-top: 9px;
-}
-.navbar-name {
-	margin-top: 10px;
-	font-size: 30px;
-	font-family: Times New Roman;
-}
-.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-    background-color: #2A7F7B;
-    color: black;
-}
-.header-font {
-	color: #2A7F7B;
-	font-family: Times New Roman;
-	padding-bottom: 10px;
-	border-bottom: 1px solid white;
-}
-article {
-    color: white;
-    line-height: 150%;
-    margin-right: 50px;
-    margin-bottom: 100px;
-    padding: 20px 30px 30px 30px;
-    background-color: rgba(42,127,123,.2);
-    clear: both;
+    font-family: 'Titillium Web', sans-serif;
 }
 
-aside { 
-	color: white;
+.navbar, .navbar-default .navbar-nav > li {
+	border: 0;
+}
+
+/** hr slides to selected links **/
+.about:hover ~ hr {
+    margin-left: 0%;
+}
+.portfolio:hover ~ hr {
+    margin-left: 32%;
+}
+.contact:hover ~ hr {
+    margin-left: 68%;
+}
+
+/*red underline for nav links*/
+hr {
+    height: .25rem;
+    width: 30%;
+    margin: 0;
+    background: tomato;
+    border: none;
+    transition: .3s ease-in-out;
+}
+/*.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    background-color: #2A7F7B;
+    color: white;
+}*/
+
+.panel-body {
     text-align: center;
-    padding: 20px;
-    position: absolute;
-    background-color: rgba(42,127,123,.2)
 }
 .github-icon {
     width: 50px;
@@ -63,9 +58,3 @@ aside {
     text-align: center;
     clear: both;
 }
-@media (max-width: 768px) {
-  .navbar-nav.navbar-center {
-    position: absolute;
-    left: 50%;
-    transform: translatex(-50%);
-  }

@@ -1,56 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+
 	<meta charset="UTF-8">
 	<title>Bootstrap Portfolio</title>
 </head>
 <body>
-<div class="container">
-
-<!-- image at top of page -->
 <div id="header-image">
-  <img src="assets/images/starwars-header.jpg" style='height: 100%; width: 100%; object-fit: contain'>
+  <img src="assets/images/stormtrooper1.jpg" style='height: 100%; width: 100%; object-fit: contain'>
 </div>
 
-<!-- navigation bar after image -->
-<nav class="navbar navbar-default">
-	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-	<div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <p class="navbar-name">Carie Ngo</p>
+  <!--Top Navigation -->
+  <nav class="navbar navbar-default" style="background-color: white">
+    <div class="container">
+      <div class="navbar-header">
+        <h1 style="font-size: 25px">Carie Ngo</h1>
+      </div>
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right" style="font-size: 18px">
+          <li class="about"><a href="index.html">About</a></li>
+          <li class="portfolio"><a href="portfolio.html">Portfolio</a></li>
+          <li class="contact"><a href="contact.html">Contact</a></li>
+          <hr />
+        </ul>
+      </div>
     </div>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="index.html">About Me</a></li>
-        <li><a href="portfolio.html">Portfolio</a></li>
-        <li><a href="contact.html">Contact Me</a></li>
-      </ul>
-    </div><!-- /.navbar-collapse -->
-</nav>
-<div class="row">
-	<div class="col-xs-8">
-	<article>
-		<h3 class="header-font">About Me</h3>
-		<img src="assets/images/bio-image.jpg" alt="profile image">
-		<p>Hello! My name is Carie Ngo. I'm 27 years old but I feel 50. I am currently studying to be a Web Developer at UCI. When I am not working I am usually at home hanging out with my dog, Kuma, attempting to study or stuffing my face with food.
-		</p>
-	</article>
-	</div>
-	<div class="col-xs-4">
-	<aside>
-      <h3 class="header-font" id="contact-info">Connect with Me</h3>
-      <a href="https://github.com/Moogieee"><img src="assets/images/github2.png" class="github-icon" title="GitHub"></a>
-      <a href="https://www.linkedin.com/in/carie-ngo-87088a13a/"><img src="assets/images/linkedin-icon.png" class="linkedin-icon" title="LinkedIn"></a>
-      <a href="https://stackexchange.com/users/10786090/carie-ngo"><img src="assets/images/stackoverflow-icon.png" class="stackoverflow-icon" title="Stack Overflow"></a>
-    </aside>
-	</div>
-</div> <!--div .container end-->
+  </nav> <!--End Navigation-->
+
+  <div class="container">
+  <!--About Me Section-->
+    <div class="row">
+      <div class="col-md-8">
+        <div class="page-header">
+          <h1>About Me</h1>
+        </div>
+        <div class="row">
+          <div class="col-md-3">
+            <img src="assets/images/bio-image.jpg" class="img-thumbnail">
+          </div>
+          <div class="col-md-9" style="font-size: 18px; margin-bottom: 100px">
+            <p>
+              Hello! My name is Carie Ngo. I'm 27 years old but I feel 50. I am currently studying to be a Web Developer at UCI. When I am not working I am usually at home hanging out with my dog, Kuma, attempting to study or stuffing my face with food.</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus architecto nemo suscipit ex quibusdam neque libero numquam, minima aliquam ab consectetur molestias, autem ratione aperiam earum voluptates ut atque, assumenda.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos, nobis hic maiores excepturi iusto ullam. Doloremque dolore, odio, dicta facere eos quae animi sequi nostrum laborum molestias iure nam inventore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt vero ipsa modi ea magnam iste, aliquam similique itaque cum laboriosam ex suscipit dolore recusandae iusto corporis consectetur quod exercitationem! Ullam! </p>
+            </p>
+          </div>
+        </div>
+      </div>
+      
+      <!--Connect With Me Section-->
+      <div class="col-md-4" style="margin-top: 58px">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h3 class="panel-title">Connect With Me</h3>
+          </div>
+          <div class="panel-body">
+            <a href="https://github.com/Moogieee"><img src="assets/images/github2.png" class="github-icon" title="GitHub"></a>
+            <a href="https://www.linkedin.com/in/carie-ngo-87088a13a/"><img src="assets/images/linkedin-icon.png" class="linkedin-icon" title="LinkedIn"></a>
+            <a href="https://stackexchange.com/users/10786090/carie-ngo"><img src="assets/images/stackoverflow-icon.png" class="stackoverflow-icon" title="Stack Overflow"></a>
+          </div>
+        </div>
+      </div>
+    </div> <!-- end row -->
+  </div> <!--div .container end-->
+
+<!--Footer-->
 <div class="footer navbar-fixed-bottom">Copyright &copy; 2017 Carie Ngo</div>
 
 
