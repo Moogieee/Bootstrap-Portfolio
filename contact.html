@@ -6,11 +6,12 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
-
   <meta charset="UTF-8">
   <title>Bootstrap Portfolio</title>
 </head>
+
 <body>
+
 <div id="header-image">
   <img src="assets/images/stormtrooper1.jpg" style='height: 100%; width: 100%; object-fit: contain'>
 </div>
@@ -19,9 +20,16 @@
   <nav class="navbar navbar-default" style="background-color: white">
     <div class="container">
       <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
         <h1 style="font-size: 25px">Carie Ngo</h1>
       </div>
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <div clas s="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <!-- navigation links on the right side or page -->
         <ul class="nav navbar-nav navbar-right" style="font-size: 18px">
           <li class="about"><a href="index.html">About</a></li>
           <li class="portfolio"><a href="portfolio.html">Portfolio</a></li>
@@ -39,6 +47,8 @@
         <div class="page-header">
           <h1>Contact Me</h1>
         </div>
+        
+      <form method="post" action="mailto:carie_ngo@yahoo.com">
 
         <!-- Name -->
         <div class="row" style="margin-bottom: 15px">
@@ -76,7 +86,7 @@
             <button type="submit" class="btn btn-primary bnt-md">Submit</button>
           </div>
         </div>
-
+      </form>
       </div>
       
       <!--Connect With Me Section-->
