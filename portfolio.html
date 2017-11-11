@@ -1,125 +1,100 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html>
+<title>Carie Ngo</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
 
-<link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+</style>
+<body class="w3-black">
 
-  <meta charset="UTF-8">
-  <title>Bootstrap Portfolio</title>
-</head>
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+  <!-- Header/Home -->
+  <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+    <h1 class="w3-jumbo"><span class="w3-hide-small"></span> Carie Ngo</h1>
+    <p>Aspiring Front End Developer and total photography noob</p>
+  </header>
 
-<body>
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+    <h2 class="w3-text-light-grey">About Me</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <p>Hello! My name is Carie Ngo and I am currently attending UCI's Full Stack Web Development Bootcamp until December 2017. As an aspiring Front End Developer I am always trying to flex my creative muscles in order to create amazing and user friendly websites. I still have a lot to learn and a long ways to go when it comes to being a great developer but the one great thing about web development is that there's always something new to learn. 
+    </p>
+    <p>On my free time I like to hang out and relax with my dog, Kuma. I also travel to eat so whenever I have time to travel I like to eat everything I possibly can in whatever country/city I am in. 
+    </p>
+    
+    <br><br><br>
+    
+    <!-- Skills Section -->
+    <h3 class="w3-padding-16 w3-text-light-grey">My Skills</h3>
+    <hr style="width:200px" class="w3-opacity">
+    <p class="w3-wide">Web Design</p>
+    <p class="w3-wide">Photography</p>
+    <p class="w3-wide">Photoshop</p>
+    
+	<br><br>
+    
+ <!-- Portfolio Section -->
+  <div class="w3-padding-64 w3-content" id="photos">
+    <h2 class="w3-text-light-grey">Coding Projects</h2>
+    <hr style="width:200px" class="w3-opacity">
 
-<div id="header-image">
-  <img src="assets/images/stormtrooper1.jpg" style='height: 100%; width: 100%; object-fit: contain'>
+    <!-- Grid for photos -->
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-third">
+        <a href="https://moogieee.github.io/StoryMe/"><img src="storyme.png" style="width:100%"></a>
+      </div>
+
+      <div class="w3-third">
+        <a href="https://burger5.herokuapp.com/index"><img src="eatdaburger.png" style="width:100%"></a>
+      </div>
+
+      <div class="w3-third">
+        <a href="https://moogieee.github.io/Crystal-Game/"><img src="crystalcollector.png" style="width:100%"></a>
+      </div>
+    <!-- End photo grid -->
+    </div>
+  <!-- End Portfolio Section -->
+  </div>
+
+
+  <!-- Photography Section -->
+  <div class="w3-padding-64 w3-content" id="photos">
+    <h2 class="w3-text-light-grey">My Photos</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <h3> Under Construction </h3>
+  <!-- End Portfolio Section -->
+  </div>
+
+  <!-- Contact Section -->
+  <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+    <h2 class="w3-text-light-grey">Contact Me</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <div class="w3-section">
+      <p><i class="fa fa-envelope fa-fw w3-text-white w3-large w3-margin-right"> </i> Email: carie_ngo@yahoo.com</p>
+      <a href="https://www.linkedin.com/in/carie-ngo-87088a13a/" style="margin-right: 10px"><i class="fa fa-linkedin fa-2x w3-hover-opacity"></i></a>
+      <a href="https://github.com/Moogieee"><i class="fa fa-github fa-2x w3-hover-opacity"></i></a>
+    </div>
+  </div>
+  
+    <!-- Footer -->
+  <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+    <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+  <!-- End footer -->
+  </footer>
+
+<!-- END PAGE CONTENT -->
 </div>
 
-  <!--Top Navigation -->
-  <nav class="navbar navbar-default" style="background-color: white">
-    <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <h1 style="font-size: 25px">Carie Ngo</h1>
-      </div>
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav navbar-right" style="font-size: 18px">
-          <li class="about"><a href="index.html">About</a></li>
-          <li class="portfolio"><a href="portfolio.html">Portfolio</a></li>
-          <li class="contact"><a href="contact.html">Contact</a></li>
-          <hr />
-        </ul>
-      </div>
-    </div>
-  </nav> <!--End Navigation-->
-
-  <div class="container">
-  <!--Portfolio Section-->
-    <div class="row" style="margin-bottom: 100px">
-      <div class="col-md-8">
-        <div class="page-header">
-          <h1>Portfolio</h1>
-        </div>
-        <div class="row">
-          <div class="col-xs-6 col-md-6">
-            <a href="#" class="thumbnail">
-              <img src="assets/images/space1.jpg" alt="...">
-              <div class="caption">
-                <p style="color: white">ONE</p>
-              </div>
-            </a>
-          </div>
-          <div class="col-xs-6 col-md-6">
-            <a href="#" class="thumbnail">
-              <img src="assets/images/space2.jpg" alt="...">
-              <div class="caption">
-                <p style="color: white">TWO</p>
-              </div>
-            </a>
-          </div>
-          <div class="col-xs-6 col-md-6">
-            <a href="#" class="thumbnail">
-              <img src="assets/images/space3.jpg" alt="...">
-              <div class="caption">
-                <p style="color: white">THREE</p>
-              </div>
-            </a>
-          </div>
-          <div class="col-xs-6 col-md-6">
-            <a href="#" class="thumbnail">
-              <img src="assets/images/space4.jpg" alt="...">
-              <div class="caption">
-                <p style="color: white">FOUR</p>
-              </div>
-            </a>
-          </div>
-          <div class="col-xs-6 col-md-6">
-            <a href="#" class="thumbnail">
-              <img src="assets/images/space5.jpg" alt="...">
-              <div class="caption">
-                <p style="color: white">FIVE</p>
-              </div>
-            </a>
-          </div>
-          <div class="col-xs-6 col-md-6">
-            <a href="#" class="thumbnail">
-              <img src="assets/images/space6.jpg" alt="...">
-              <div class="caption">
-                <p style="color: white">SIX</p>
-              </div>
-            </a>
-          </div>
-        
-          
-        </div> <!--end row-->
-      </div>
-      
-      <!--Connect With Me Section-->
-      <div class="col-md-4" style="margin-top: 58px; margin-bottom: 100px">
-        <div class="panel panel-default">
-          <div class="panel-heading">
-            <h3 class="panel-title">Connect With Me</h3>
-          </div>
-          <div class="panel-body">
-            <a href="https://github.com/Moogieee"><img src="assets/images/github2.png" class="github-icon" title="GitHub"></a>
-            <a href="https://www.linkedin.com/in/carie-ngo-87088a13a/"><img src="assets/images/linkedin-icon.png" class="linkedin-icon" title="LinkedIn"></a>
-            <a href="https://stackexchange.com/users/10786090/carie-ngo"><img src="assets/images/stackoverflow-icon.png" class="stackoverflow-icon" title="Stack Overflow"></a>
-          </div>
-        </div>
-      </div>
-    </div> <!-- end row -->
-  </div> <!--div .container end-->
-
-<!--Footer-->
-<div class="footer navbar-fixed-bottom">Copyright &copy; 2017 Carie Ngo</div>
-
-
-  
 </body>
 </html>
