@@ -168,7 +168,7 @@ section h2 {
 }
 
 header.masthead {
-  padding-top: calc(6rem + 72px);
+  padding-top: calc(2rem + 72px);
   padding-bottom: 6rem;
 }
 
@@ -184,7 +184,7 @@ header.masthead h2 {
 
 @media (min-width: 992px) {
   header.masthead {
-    padding-top: calc(6rem + 106px);
+    padding-top: calc(2rem + 106px);
     padding-bottom: 6rem;
   }
   header.masthead h1 {
@@ -331,6 +331,14 @@ form .row:first-child .floating-label-form-group {
 
 .copyright {
   background-color: #1a252f;
+}
+
+a.contact-icon {
+  color: white;
+}
+
+a.contact-icon:focus, a.contact-icon:hover, a.contact-icon:active {
+  color: white;
 }
 
 a {
